@@ -1,6 +1,7 @@
 @media screen and (max-width: 760px){
 header{
     flex-direction: column;
+    margin-bottom: 70px;
 }
 
 ui{
@@ -11,6 +12,13 @@ ui{
 
 #searchbox{
     width: 250px;
+    padding: 2%;
+}
+
+#searchbotton{
+    padding: 2%;
+    width: 70px;
+    height: 48px;
 }
 
 img{
