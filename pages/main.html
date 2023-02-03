@@ -7,6 +7,7 @@
     <title>Portal Videos</title>
     <link href="/styles/styles.css" rel="stylesheet">
     <link href="/styles/media.css" rel="stylesheet">
+    <script src="/js/scripts.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,12 +24,15 @@
     </header>
     <main>
        <form>
-        <input type="text" placeholder="Paste your link here.." id = 'searchbox'>
+        <input type="text" placeholder="Paste your link here.." id ='searchbox' name='searchbox'>
         <input type="submit" value="Go" id="searchbotton">
        </form> 
-       <article>
-        <img src="/images/player.png" alt="video_player">
-       </article>
+       <div>
+        <iframe width="840" height="480" src='' e<!- resolver problema de link id='linkador'->
+        allow="accelerometer;
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+       </div>
     </main>
 </body>
 </html>
