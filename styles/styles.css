@@ -18,6 +18,7 @@ header{
     flex-direction: column;
     line-height: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 h1{
@@ -33,7 +34,7 @@ h2{
 
 #title:hover{
     font-size: 25px;
-    transition: 0.5s all;
+    transition: 0.5s linear all;
     
 }
 
@@ -63,7 +64,7 @@ a{
 }
 a:hover{
     color:red;
-    transition: 0.5s all;
+    transition: 0.5s linear all;
 }
 
 #home{
@@ -74,7 +75,7 @@ a:hover{
 
 #home:hover{
     background-color: red;
-    transition: 0.3s all;
+    transition: 0.3s linear all;
     color: white
 }
 
@@ -88,11 +89,17 @@ form{
     height: 20px;
     border-radius: 8px;
     padding: 15px;
+    border: none;
 }
 
 #searchbotton{
     width: 60px;
-    height: 56px;
+    height: 52px;
     background-color: white;
     border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    cursor: pointer;
 }

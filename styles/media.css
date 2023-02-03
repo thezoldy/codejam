@@ -1,0 +1,20 @@
+@media screen and (max-width: 760px){
+header{
+    flex-direction: column;
+}
+
+ui{
+   flex-direction: row;
+   height: 10px;
+   margin: 0 auto;
+}
+
+#searchbox{
+    width: 250px;
+}
+
+img{
+    width: 500px;
+}
+
+}
