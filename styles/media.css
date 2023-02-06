@@ -1,0 +1,28 @@
+@media screen and (max-width: 760px){
+header{
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+ui{
+   flex-direction: row;
+   height: 10px;
+   margin: 0 auto;
+}
+
+#searchbox{
+    width: 250px;
+    padding: 2%;
+}
+
+#searchbotton{
+    padding: 2%;
+    width: 70px;
+    height: 48px;
+}
+
+iframe{
+    width: 400px;
+}
+
+}
