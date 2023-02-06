@@ -19,6 +19,7 @@ header{
     line-height: 20px;
     text-align: center;
     cursor: pointer;
+    margin-left: 60px;
 }
 
 h1{
@@ -47,7 +48,7 @@ main{
 }
 
 ui{
-    margin-right: 80px;
+    margin-right: 60px;
 }
 
 li{
