@@ -10,7 +10,6 @@ function SecondComponent(){
             <div id="title">
                 <h1>ExxonMobil</h1>
             </div> 
-            
             <ui>
                 <a href="lobby.html" id="home"><li>Home</li></a>
                 <a href="myprofile.html"><li>My Profile</li></a>
