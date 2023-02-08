@@ -2,12 +2,12 @@ function FirstComponent(){
     const Button = (Event) => {
         Event.preventDefault()
         const input = document.querySelector("#searchbox")
-        const link = input.value
-        const newcode = link.slice(32)
-        const newlink = `https://www.youtube.com/embed/${newcode}`
+        const link = input.value 
+        const newcode = link.slice(32) // global
+        const newlink = `https://www.youtube.com/embed/${newcode}` //global
         console.log(newlink)
         document.getElementById("linkador").src = [newlink]}
-        // necessário criar 2nd page
+                
     return (
     <body>
         <header id="cabecalho">
@@ -23,8 +23,8 @@ function FirstComponent(){
             </ui>
         </header>
         <>
-            <h3>EM PLAY</h3>
-            </>
+            <h3>ExPlay</h3>
+        </>
         <main>
             <div>
                 

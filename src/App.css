@@ -12,7 +12,7 @@ header{
     align-items: center;
     box-shadow: 0px 0.5rem #0000004c;
     background-color: rgb(24, 23, 23);
-    width: 1220px;
+    width: 1960px;
 }
 
 #title{
@@ -109,4 +109,56 @@ form{
 
 h3{
     text-align: center;
+}
+
+#buttonshare{
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+#backbutton{
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 38, 255);
+    cursor: pointer;
+}
+
+#sharebutton{
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 38, 255);
+    cursor: pointer;
+}
+
+#share{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
