@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(43, 43, 43);
+    background-color: #112;
     color: white;
     font-family: 'Poppins', sans-serif;;
     max-width: 1800px;
@@ -10,9 +10,15 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0px 0.5rem #0000004c;
-    background-color: rgb(24, 23, 23);
-    width: 1960px;
+    background-color: rgb(255, 251, 251);
+    width: 1270px;
+}
+
+#logo{
+
+    align-items: center;
+    width: 200px;
+    
 }
 
 #title{
@@ -21,6 +27,10 @@ header{
     text-align: center;
     cursor: pointer;
     margin-left: 60px;
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 h1{
@@ -50,11 +60,14 @@ main{
 
 ui{
     margin-right: 60px;
+    font-weight: lighter;
+    
 }
 
 li{
     display: inline-block;
     margin:20px;
+    
 }
 
 img{
@@ -70,7 +83,17 @@ a:hover{
 }
 
 #home{
+    background-color: white;
+    color: red;
     border: 2px solid red;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#h2{
+    background-color: white;
+    color: red;
     padding: 10px;
     border-radius: 15px;
     font-weight: bolder;
@@ -92,19 +115,30 @@ form{
     height: 20px;
     border-radius: 8px;
     padding: 15px;
+    padding-right: 20px;
     border: none;
+    box-sizing: border-box;
+    transition: all 1s;
+    font-size: 1.2em;
+
+
 }
 
 #searchbotton{
-    width: 60px;
-    height: 52px;
+   
     background-color: white;
-    border-radius: 8px;
-    border: none;
     font-weight: bold;
-    color: white;
-    background-color: red;
+    color: rgb(255, 0, 0);
     cursor: pointer;
+    box-sizing: border-box;
+    width: 45px;
+    height: 33px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2em;
+    margin-left: 5px;
+
 }
 
 h3{
@@ -114,37 +148,48 @@ h3{
 #buttonshare{
     width: 120px;
     height: 60px;
-    background-color: white;
     border-radius: 8px;
-    border: none;
     font-weight: bold;
-    color: white;
-    background-color: red;
     cursor: pointer;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color:#112;
+    border-color: white;
 }
 
 #backbutton{
     width: 120px;
     height: 60px;
-    background-color: white;
     border-radius: 8px;
-    border: none;
     font-weight: bold;
-    color: white;
-    background-color: rgb(0, 38, 255);
     cursor: pointer;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color:#112;
+    border-color: white;
 }
 
 #sharebutton{
     width: 120px;
     height: 60px;
-    background-color: white;
     border-radius: 8px;
-    border: none;
+    border-radius: 8px;
+    border-color: white;
     font-weight: bold;
     color: white;
-    background-color: rgb(0, 38, 255);
+    background-color: #112;
     cursor: pointer;
+}
+
+#sharebutton:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s linear all;    
+    color: #112;
+    border-color: #112 ;
 }
 
 #share{
@@ -162,3 +207,58 @@ h3{
     align-items: center;
     margin: 0 auto;
 }
+
+#border-video{
+    background-color: #112;
+
+}
+
+#linkador{
+    border:0;
+}
+
+#main{
+    padding-top: 100px;
+}
+
+
+#dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  #dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+  
+  #dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+  
+  #dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  #dropdown a:hover {background-color: #ddd;}
+  
+  #show {display: block;}
