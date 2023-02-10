@@ -41,6 +41,7 @@ h2{
     display:block;
     font-weight: lighter;
     font-size: 15px;
+color: black;
 
 }
 
@@ -128,7 +129,7 @@ form{
    
     background-color: white;
     font-weight: bold;
-    color: rgb(255, 0, 0);
+    color: black;
     cursor: pointer;
     box-sizing: border-box;
     width: 45px;

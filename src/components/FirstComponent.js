@@ -17,10 +17,7 @@ function FirstComponent(){
             </div> 
             
               <ui>
-                <a href="lobby.html" id="home"><li>Home</li></a>
-                <a href="myprofile.html" id="h2"><li>Podcast</li></a>
-                <a href="search.html" id="h2"><li>Playlist</li></a>
-                <a href="contact.html" id="h2"><li>My Profile</li></a>
+                <a href="lobby.html" id="h2"><li>Player</li></a>
             </ui>
              
         </header>
