@@ -14,41 +14,8 @@ header{
     width: 1270px;
 }
 
-#logo{
-
-    align-items: center;
-    width: 200px;
-    
-}
-
 #title{
-    flex-direction: column;
-    line-height: 20px;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 60px;
-    width: 150px;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 15px;
-}
-
-h1{
-    font-weight: bolder;
-    color: red
-}
-h2{
-    display:block;
-    font-weight: lighter;
-    font-size: 15px;
-color: black;
-
-}
-
-#title:hover{
-    font-size: 25px;
-    transition: 0.5s linear all;
-    
+    margin-left: 30px;
 }
 
 main{
@@ -61,26 +28,17 @@ main{
 
 ui{
     margin-right: 60px;
-    font-weight: lighter;
-    
+    font-weight: lighter;   
 }
 
 li{
     display: inline-block;
     margin:20px;
-    
+    color: red;
 }
 
-img{
-    width: 850px;
-}
-
-a{
-    color: white
-}
-a:hover{
-    color:red;
-    transition: 0.5s linear all;
+li:hover{
+    font-weight: 600;
 }
 
 #home{
@@ -92,18 +50,11 @@ a:hover{
     font-weight: bolder;
 }
 
-#h2{
-    background-color: white;
-    color: red;
-    padding: 10px;
-    border-radius: 15px;
-    font-weight: bolder;
-}
-
 #home:hover{
+    color: black;
     background-color: red;
     transition: 0.3s linear all;
-    color: white
+
 }
 
 form{
@@ -121,8 +72,6 @@ form{
     box-sizing: border-box;
     transition: all 1s;
     font-size: 1.2em;
-
-
 }
 
 #searchbotton{
@@ -139,11 +88,6 @@ form{
     align-items: center;
     font-size: 1.2em;
     margin-left: 5px;
-
-}
-
-h3{
-    text-align: center;
 }
 
 #buttonshare{
@@ -218,48 +162,7 @@ h3{
     border:0;
 }
 
-#main{
-    padding-top: 100px;
+
+#logo{
+    width: 250px;
 }
-
-
-#dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  #dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-  }
-  
-  #dropdown {
-    float: right;
-    position: relative;
-    display: inline-block;
-  }
-  
-  #dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    right: 0;
-    z-index: 1;
-  }
-  
-  #dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  #dropdown a:hover {background-color: #ddd;}
-  
-  #show {display: block;}
